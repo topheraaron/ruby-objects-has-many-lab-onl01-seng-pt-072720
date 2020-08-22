@@ -8,9 +8,9 @@ class Artist
     @name = name
   end
 
-  def self.song_count
-    @@song_count
-  end
+  # def self.song_count
+  #   @@song_count
+  # end
 
   def songs
     Song.all.select do |song|
@@ -28,7 +28,7 @@ class Artist
   end
 
   def self.song_count
-    Song.all.count 
+    Song.all.count
   end
 
 
