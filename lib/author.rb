@@ -9,5 +9,6 @@ class Author
   def posts
     Post.all.select do |post|
       post.artist == self
+    end
   end
 end
