@@ -9,10 +9,5 @@ class Song
   end
 
 
-  # def artist_name
-  #   if
-  #   artist.name
-  #   end
-  end
 
 end
